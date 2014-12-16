@@ -14,7 +14,7 @@ ENV HOME /home/perforce
 
 # Setup Package
 RUN apt-get update && \
-    apt-get install wget -y && \
+    apt-get install wget curl -y && \
     wget -q http://package.perforce.com/perforce.pubkey -O - | apt-key add - && \
     echo "deb http://package.perforce.com/apt/ubuntu precise release" >> /etc/apt/sources.list && \
     apt-get update && \
