@@ -46,5 +46,5 @@ p4 configure set dm.user.noautocreate=2
 #### User should have password
 
 ```
-p4 configure set security=seclevel1
+p4 configure set security=1
 ```
