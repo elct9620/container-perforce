@@ -7,7 +7,7 @@ FROM ubuntu:precise
 MAINTAINER 蒼時弦也 "docker@frost.tw"
 
 # Environnement
-ENV P4JOURNAL /var/log/perforce/journal
+ENV P4JOURNAL /perforce/journal
 ENV P4PORT 1666
 ENV P4ROOT /perforce
 ENV HOME /home/perforce
